@@ -1,8 +1,4 @@
-# Svelte app
-
-This is a project template for my [Svelte](https://svelte.dev) apps. It lives at https://github.com/leomet07/svelte-template.
-
-Create a new project based off this template with my cli tool, [svelte-gen](https://github.com/leomet07/sveltegen).
+# Bridge Project
 
 ## Get started
 

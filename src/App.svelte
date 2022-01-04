@@ -1,4 +1,3 @@
-<!-- App.svelte -->
 <script>
 	import { Router, Link, Route } from "svelte-routing";
 	import Home from "./routes/Home.svelte";
@@ -23,9 +22,6 @@
 	#navbar {
 		text-align: center;
 		padding-top: 8px;
-		color: black;
-	}
-	.link {
 		color: black;
 	}
 
