@@ -1,19 +1,35 @@
 <script>
+	import { img_index } from "../store.js";
+
+	const imgs = ["/img/landscape.jpg", "/img/top.jpg", "/img/vertical.png"];
+
 	function prev() {
-		console.log("Previous");
+		if ($img_index > 0) {
+			$img_index = $img_index - 1;
+		} else {
+			$img_index = imgs.length - 1;
+		}
+		console.log("Previous", $img_index);
 	}
 	function next() {
-		console.log("Next");
+		if ($img_index < imgs.length - 1) {
+			$img_index = $img_index + 1;
+		} else {
+			$img_index = 0;
+		}
+		console.log("Next", $img_index);
 	}
 </script>
 
 <main id="home">
 	<h1>IKEA bridge</h1>
-	<img
-		id="main_img"
-		src="/img/landscape_img.jpg"
-		alt="Horizontal view of the bridge"
-	/>
+	<div id="img_area">
+		<img
+			id="main_img"
+			src={imgs[$img_index]}
+			alt="Large view of the bridge"
+		/>
+	</div>
 	<div id="select_img">
 		<button id="prev_btn" on:click={prev}>Previous</button>
 		<button id="next_btn" on:click={next}>Next</button>
@@ -61,11 +77,28 @@
 	}
 
 	#main_img,
-	#select_img {
+	#select_img,
+	#img_area {
 		width: 100%;
 		max-width: 700px;
 	}
 
+	#img_area {
+		/* height: 37vh; */
+		/* max-height: 500px; */
+		height: min(500px);
+		/* background-color: grey; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+	}
+
+	@media only screen and (max-width: 540px) {
+		#img_area {
+			height: 37vh;
+		}
+	}
 	#select_img {
 		margin: auto;
 		display: flex;
@@ -79,6 +112,7 @@
 		height: 40px;
 		border: 1px solid black;
 		background-color: white;
+		color: black;
 		border-radius: 5%;
 		padding: 10px;
 	}
