@@ -96,7 +96,7 @@
 
 	@media only screen and (max-width: 540px) {
 		#img_area {
-			height: 37vh;
+			height: 350px;
 		}
 	}
 	#select_img {
