@@ -1,4 +1,4 @@
-# Bridge Project
+# IKEA bridge website
 
 ## Get started
 

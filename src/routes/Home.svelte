@@ -2,7 +2,7 @@
 </script>
 
 <main id="home">
-	<h1>Here is the art project!</h1>
+	<h1>IKEA bridge</h1>
 </main>
 
 <style>
