@@ -22,7 +22,8 @@
 </script>
 
 <main id="home">
-	<h1>IKEA bridge</h1>
+	<h1>The IKEA bridge</h1>
+	<h2 id="authors">By Lenny M, Fin Y, Kimberly Y, Sophie L</h2>
 	<div id="img_area">
 		<img
 			id="main_img"
@@ -115,5 +116,9 @@
 		color: black;
 		border-radius: 5%;
 		padding: 10px;
+	}
+
+	#authors {
+		margin-top: 5px;
 	}
 </style>
