@@ -36,27 +36,27 @@
 		<button id="next_btn" on:click={next}>Next</button>
 	</div>
 	<p>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the year 301 BSE,
-		tragedy struck. Yuts island declared war on Stuyvesant High School. In
-		the midst of conflict, fighting ensued and deaths were common. For years
-		they attacked one another, while their people lived in constant fear of
-		death just looking over their shoulders. Finally, 96 years into the war,
-		there was finally a winner. Yuts island had many troops and were
-		especially fierce in battle, so they charged head-first without
-		hesitation. The favor seemed to be on their side for a while, however,
-		Stuyvesant came out on top in the end due to their brilliant battle
-		strategies and rigorous training. Under the new rule, there were many
-		changes made to the city.
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the year 301 BSE
+		(Before Stuy Era), tragedy struck. Yuts island declared war on
+		Stuyvesant High School. In the midst of conflict, fighting ensued and
+		deaths were common. For years they attacked one another, while their
+		people lived in constant fear of death just looking over their
+		shoulders. Finally, 96 years into the war, there was finally a winner.
+		Yuts island had many troops and were especially fierce in battle, so
+		they charged head-first without hesitation. The favor seemed to be on
+		their side for a while, however, Stuyvesant came out on top in the end
+		due to their brilliant battle strategies and rigorous training. Under
+		the new rule, there were many changes made to the city.
 	</p>
 	<p>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a model of the
-		famed IKEA bridge that was built in the year 5 ASE, just a couple years
-		after Stuyvesant had won the war. Their ultimate goal, aside from world
-		domination, was to cultivate an environmentally friendly city and to
-		eliminate the pollution that had arisen from the many years of
-		inefficient bridge use. This bridge represents an advanced and
-		environmentally motivated civilization. Although the bridge may look a
-		little disfigured, it was built that way to represent the historically
+		famed IKEA bridge that was built in the year 5 ASE (After Stuy Era),
+		just a couple years after Stuyvesant had won the war. Their ultimate
+		goal, aside from world domination, was to cultivate an environmentally
+		friendly city and to eliminate the pollution that had arisen from the
+		many years of inefficient bridge use. This bridge represents an advanced
+		and environmentally motivated civilization. Although the bridge may look
+		a little disfigured, it was built that way to represent the historically
 		accurate revolts and damage caused by certain individuals who refused to
 		accept their new civilization. Building a bridge for trains provides a
 		quick, safe, and efficient choice for passengers.
