@@ -9,7 +9,6 @@
 		} else {
 			$img_index = imgs.length - 1;
 		}
-		console.log("Previous", $img_index);
 	}
 	function next() {
 		if ($img_index < imgs.length - 1) {
@@ -17,12 +16,11 @@
 		} else {
 			$img_index = 0;
 		}
-		console.log("Next", $img_index);
 	}
 </script>
 
 <main id="home">
-	<h1>The IKEA bridge</h1>
+	<h1>Our IKEA bridge</h1>
 	<h2 id="authors">By Lenny M, Fin Y, Kimberly Y, Sophie L</h2>
 	<div id="img_area">
 		<img

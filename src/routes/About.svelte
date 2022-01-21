@@ -9,7 +9,7 @@
 			The site was made in Svelte and its <a
 				href="https://github.com/leomet07/ikeabridge"
 				target="_blank">source code</a
-			> is on GitHub.
+			> is open source and on GitHub.
 		</p>
 		<p>
 			Made with &lt;3 by <a
